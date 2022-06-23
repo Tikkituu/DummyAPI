@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "1fde16c2-d91e-42db-b859-5483ce532ff3",
+		"name": "Dummyapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14584912"
+	},
+	"item": [
+		{
+			"name": "PostList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page0lim5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=0&limit=5",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page1lim5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=1&limit=50",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page999lim50",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=999&limit=50",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "999"
+						},
+						{
+							"key": "limit",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page1000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=1000",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1000"
+						},
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page_lat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=lat",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "lat"
+						},
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page_novalid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=$$%%%",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "$$%%%"
+						},
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page_bool",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?page=true",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true"
+						},
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?limit=4",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit51",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?limit=51",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "51"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit_lat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?limit=Lat",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "Lat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit_novalid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?limit=%%%26%26%264$",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "%%&&&4$"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit_bool",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/post?limit=false",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/user",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
