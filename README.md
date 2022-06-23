@@ -36,7 +36,7 @@ owner: object(User Preview)
 ```
 
 ## Майнд-карта
-![Майнд-карта](https://drive.google.com/file/d/1QuxCsvCLh5P-kG7kyDY4C_iW-Wso8MgJ/view?usp=sharing "Майнд-карта")
+![Майнд-карта](https://i.imgur.com/wedjtFJ.png "Майнд-карта")
 
 
 
